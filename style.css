@@ -1,3 +1,4 @@
+
 .corTitulo {
     background-color: #303030;
     width: 1024px;
@@ -20,4 +21,9 @@
     left: 1634px;
     display: flex;
     
-}
+=======
+*{
+    margin:0;
+    padding:0;
+    border: none;
+  }
