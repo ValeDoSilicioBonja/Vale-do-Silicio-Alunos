@@ -1,5 +1,29 @@
+
+.corTitulo {
+    background-color: #303030;
+    width: 1024px;
+    height: 63px;
+    top: -210px;
+    left: 898px;
+}
+
+.logo {
+    width: 141px;
+    height: 63px;
+    top: -210px;
+    left: 907px;
+}
+
+.bTurma {
+    width: 47px;
+    height: 15px;
+    top: -186px;
+    left: 1634px;
+    display: flex;
+    
+=======
 *{
     margin:0;
     padding:0;
     border: none;
-}
+  }
