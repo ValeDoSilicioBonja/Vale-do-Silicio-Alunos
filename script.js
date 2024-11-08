@@ -12,3 +12,23 @@ function moveSlide(step) {
     const slideWidth = slides[0].clientWidth;
     carouselTrack.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
 }
+
+
+document.querySelectorAll('.faq-question').forEach(button => {
+    button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+
+        // Verifica se o FAQ já está aberto
+        if (answer.style.maxHeight) {
+            // Fecha o FAQ
+            answer.style.maxHeight = null;
+        } else {
+            // Fecha todos os FAQs abertos
+            document.querySelectorAll('.faq-answer').forEach(answer => {
+                answer.style.maxHeight = null;
+            });
+            // Abre o FAQ clicado
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+    });
+});
