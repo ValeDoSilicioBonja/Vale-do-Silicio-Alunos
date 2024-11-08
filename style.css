@@ -1,29 +1,139 @@
+@media (max-width: 768px) {
+    /* Estilos para tablets e dispositivos móveis */
+}
+@media (max-width: 480px) {
+    /* Estilos para dispositivos menores, como smartphones */
+}
 
-.corTitulo {
+@media (min-width: 1024px) {
+    /* Estilos para telas de desktop e laptop */
+}
+
+@media (min-width: 1440px) {
+    /* Estilos para telas de monitores widescreen */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+.menu {
     background-color: #303030;
-    width: 1024px;
+    width: 100%;
     height: 63px;
-    top: -210px;
-    left: 898px;
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente */
+    justify-content: space-between; /* Logo à esquerda e botões à direita */
+    padding: 0 20px; /* Espaçamento interno */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Mantém o menu acima de outros elementos */
+}
+
+.div-logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     width: 141px;
-    height: 63px;
-    top: -210px;
-    left: 907px;
+    height: auto;
+}
+
+.menu-buttons {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os botões */
 }
 
 .bTurma {
-    width: 47px;
-    height: 15px;
-    top: -186px;
-    left: 1634px;
-    display: flex;
+    padding: 10px 15px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-*{
-    margin:0;
-    padding:0;
-    border: none;
-  }
+.bTurma:hover {
+    background-color: #606060;
+}
+
+html, body {
+    overflow-x: hidden; /* Evita rolagem lateral */
+}
+
+.carousel {
+    width: 100vw; /* Ocupa toda a largura da tela */
+    height: 30vw; /* Altura de 30% da largura da tela */
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease; /* Transição suave ao mover */
+}
+
+.carousel-image {
+    width: 100vw; /* Largura igual à da viewport */
+    height: 30vw; /* Altura de 30% da largura da tela */
+    object-fit: cover; /* Garante que a imagem seja redimensionada proporcionalmente sem ser cortada */
+    flex-shrink: 0;
+}
+
+/* Botões de navegação sem fundo */
+#button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent; /* Sem fundo */
+    color: black; /* Cor das setas */
+    border: none; /* Sem borda */
+    font-size: 40px; /* Tamanho da seta */
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px; /* Posição do botão anterior */
+}
+
+.next {
+    right: 10px; /* Posição do botão próximo */
+}
+
+/* Efeitos ao passar o mouse nos botões */
+button:hover {
+    color: #333; /* Altere a cor da seta ao passar o mouse */
+}
+
+.site-description {
+    width: 90%; /* Ocupa a maior parte da largura da tela */
+    max-width: 800px; /* Limite de largura para telas grandes */
+    margin: 20px auto; /* Centraliza e adiciona margem */
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif;
+}
+
+.site-description h2 {
+    margin-bottom: 10px;
+    font-family: 'Vampiro One', sans-serif; /* Aplica a fonte Vampiro One */
+    -webkit-text-stroke: 1px #000000; /* Borda vermelha ao redor do texto */
+    color: #65C8BF; /* Cor do preenchimento do texto */
+    font-size: 60px;
+} 
+
+.site-description p {
+    font-size: 1em; /* Tamanho do texto do parágrafo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+

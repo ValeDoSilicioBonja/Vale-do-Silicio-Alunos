@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="corTitulo">
-        <div>
-  <img class="logo" src="/imagens/logo.png">
-  <button class="bTurma">TURMA</button>
-        </div>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="div-logo">
+        <img class="logo" src="/imagens/logo.png" alt="Logo" />
+      </div>
+      <div class="menu-buttons">
+        <button class="bTurma">SOBRE</button>
+        <button class="bTurma">TURMA</button>
+        <button class="bTurma">EQUIPE</button>
+        <button class="bTurma">GALERIA</button>
+      </div>
     </div>
-    
-       
-    
-</body>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="/imagens/1708354402604.png" alt="Imagem 1" class="carousel-image" />
+        <img src="/imagens/1719520659494.png" alt="Imagem 2" class="carousel-image" />
+        <img src="/imagens/1720975750943.png" alt="Imagem 3" class="carousel-image" />
+      </div>
+      <button id="button" class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button id="button" class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <!-- Descrição do site -->
+    <div class="site-description">
+      <h2>SOBRE</h2>
+      <p>
+        Este é o nosso site onde você encontrará uma variedade de conteúdo sobre
+        [tema do site]. Explore o carrossel acima para ver nossos destaques e,
+        em seguida, continue navegando para descobrir mais sobre o que oferecemos.
+        Aqui você encontra [detalhes sobre o conteúdo ou propósito do site].
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
