@@ -19,25 +19,48 @@
     border: none;
 }
 
-.corTitulo {
+.menu {
     background-color: #303030;
-    width: 1024px;
+    width: 100%;
     height: 63px;
-    top: -210px;
-    left: 898px;
+    top: 0;
+    left: 0;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px ;
+    position: fixed;
+    z-index: 1000;
+}
+
+.div-logo{
+display: flex;
+align-items: center;
+
 }
 
 .logo {
     width: 141px;
-    height: 63px;
-    top: -210px;
-    left: 907px;
+    height:auto;
+}
+.div-botoes{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.bTurma {
-    width: 47px;
-    height: 15px;
-    top: -186px;
-    left: 1634px;
-    display: flex;
+.botoes {
+    padding: 10px 15px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botoes:hover{
+    background-color: #606060;    
 }
