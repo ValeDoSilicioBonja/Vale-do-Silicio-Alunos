@@ -1,8 +1,18 @@
 .fotodeperfil{
-    width: 1024px;
-    height: 404px;
+text-align: center;
+height: 500px;
+width: 1500px;
+
 }
 .titulo{
-    color: rgb(4, 0, 0);
+    color: #65c8bf;
     text-align: center;
+    font-family: 'vampiro one', sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000000;
+    margin:0;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
 }
