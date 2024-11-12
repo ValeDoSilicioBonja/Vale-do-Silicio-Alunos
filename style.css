@@ -1,29 +1,27 @@
 
-.corTitulo {
+.logo{
+width: 115.8px;
+height: 50px;
+top: 501px;
+left: 1284px;
+}
+
+.cea{
+    width: 115.8px;
+    height: 50px;
+    top: 501px;
+    left: 1284px;
+}
+ 
+.rectamgle{
+width: 1027px;
+height: 63px;
+top: 495px;
+left: 895px;
+}
+
+.div-footer{
     background-color: #303030;
-    width: 1024px;
-    height: 63px;
-    top: -210px;
-    left: 898px;
+    height: auto;
+    width: 1400;
 }
-
-.logo {
-    width: 141px;
-    height: 63px;
-    top: -210px;
-    left: 907px;
-}
-
-.bTurma {
-    width: 47px;
-    height: 15px;
-    top: -186px;
-    left: 1634px;
-    display: flex;
-}
-
-*{
-    margin:0;
-    padding:0;
-    border: none;
-  }
