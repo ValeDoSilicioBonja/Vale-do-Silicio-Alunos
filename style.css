@@ -84,4 +84,22 @@ align-items: center;
 .botoes:hover{
     background-color: #606060;    
 }
+.vale{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.texto2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
 
