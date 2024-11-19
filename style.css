@@ -1,3 +1,23 @@
+
+.fotodeperfil{
+text-align: center;
+height: 500px;
+width: 1500px;
+
+}
+.titulo{
+    color: #65c8bf;
+    text-align: center;
+    font-family: 'vampiro one', sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000000;
+    margin:0;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+}
+
 @media (max-width: 768px) {
     /* Estilos para tablets e dispositivos móveis */
 }
@@ -34,8 +54,8 @@
 }
 
 .div-logo{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -63,5 +83,40 @@ align-items: center;
 }
 
 .botoes:hover{
-    background-color: #606060;    
+
+    background-color: #606060;  
+    align-items: center;  
+}
+.vale{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.texto2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.div-cea, .asml{
+
+    width: 127px;
+    height: 63px;
+    
+}
+
+.div-footer{
+    background-color: #303030; /* Cor de fundo */
+    padding: 0 20px;     /* Espaçamento interno */
+    width: 100%;       /* Ocupa toda a largura da página */
+    height: 63px;
+    text-align: center;/* Centraliza o conteúdo do texto */
 }
