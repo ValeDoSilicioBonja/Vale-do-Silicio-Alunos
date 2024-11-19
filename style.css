@@ -1,3 +1,23 @@
+
+.fotodeperfil{
+text-align: center;
+height: 500px;
+width: 1500px;
+
+}
+.titulo{
+    color: #65c8bf;
+    text-align: center;
+    font-family: 'vampiro one', sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000000;
+    margin:0;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+}
+
 @media (max-width: 768px) {
     /* Estilos para tablets e dispositivos móveis */
 }
@@ -62,6 +82,7 @@
 }
 
 .botoes:hover{
+
     background-color: #606060;  
     align-items: center;  
 }
