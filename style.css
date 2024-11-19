@@ -105,31 +105,17 @@ width: 1500px;
     margin-bottom: 50px;
 }
 
-.div-cea{
+.div-cea, .asml{
 
     width: 127px;
     height: 63px;
     
 }
 
-.asml {
-width: 127px;
-height: 63px;
-}
-
-
 .div-footer{
     background-color: #303030; /* Cor de fundo */
-    position: fixed;   /* Fixa a div na tela */
     padding: 0 20px;     /* Espaçamento interno */
-    bottom: 0;         /* Alinha a div ao fundo da página */
-    left: 0;           /* Alinha à esquerda */
     width: 100%;       /* Ocupa toda a largura da página */
     height: 63px;
     text-align: center;/* Centraliza o conteúdo do texto */
-    align-items: center;
-    position: fixed;
-    z-index: 1000;
-    gap: 20px;
-
 }
