@@ -26,6 +26,9 @@
     font-size: 40px;
     -webkit-text-stroke: 1px #000000;
     margin: 0;
+    margin-top: 70px; 
+    margin-bottom: 20px;
+   
   }
 
   .menu {
@@ -121,21 +124,40 @@
   background-color: #f0f0f0;
   padding: 20px;
   box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
-  border: 1px solid #ccc;
+  border: 2px solid black;
   text-align: center;
+  border-radius: 20px;
+  background-color: #65c8bf;
 }
 .box1 {
-    flex: 1 1 calc(33.33% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
+    flex: 1 1 calc(20.20% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
     background-color: #f0f0f0;
     padding: 20px;
     box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
-    border: 1% solid #ccc;
+    border: 2px solid black;
     text-align: center;
+    border-radius: 20px;
+    background-color: #65c8bf;
+    margin-left: 80px;
+    
 }
-
+.box2 {
+  flex: 1 1 calc(20.20% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #65c8bf;
+  margin-right: 80px;
+}
 .fotos_card {
   height: 200px;
   width: 180px;
   float: left;
   margin-right: 10px;
+}
+.titulo1 {
+  margin-bottom: 15px;
 }
