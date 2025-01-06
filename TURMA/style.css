@@ -26,7 +26,7 @@
     font-size: 40px;
     -webkit-text-stroke: 1px #000000;
     margin: 0;
-    margin-top: 100px; 
+    margin-top: 70px; 
     margin-bottom: 20px;
    
   }
@@ -54,7 +54,6 @@
   }
   .logo {
     width: 135px;
-    height: 60px;
     background-size: 300px 150px;
   }
   .div-botoes {
@@ -122,6 +121,15 @@
   margin:20px
 }
 
+.nome-card {
+  margin-bottom: 15px;
+}
+
+.bio-card{
+  text-align: justify;
+  line-height: 1.0
+}
+
 .box {
   flex: 1 1 calc(33.33% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
   background-color: #f0f0f0;
@@ -139,7 +147,4 @@
   width: 180px;
   float: left;
   margin-right: 10px;
-}
-.titulo1 {
-  margin-bottom: 15px;
 }

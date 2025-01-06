@@ -52,7 +52,6 @@
   
   .logo {
     width: 135px;
-    height: 60px;
     background-size: 300px 150px;
   }
   .div-botoes {
@@ -114,11 +113,25 @@
     }
     
 .container {
-  margin-top: 100px;
+  text-align: center;
+  margin: 10px;
   display: flex;
-  flex-wrap: wrap; /* Faz as seções quebrarem para a próxima linha quando necessário */
+  flex-direction: column;
   gap: 20px; /* Espaço entre as seções */
 }
+
+.fotos_card {
+  height: 200px;
+  width: 180px;
+  float: left;
+  margin-right: 10px;
+}
+
+.bio-card{
+  text-align: center, justify;
+
+}
+
 
 .box {
   flex: 1 1 calc(33.33% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
@@ -130,35 +143,5 @@
   border-radius: 20px;
   background-color: #65c8bf;
 }
-.box1 {
-    flex: 1 1 calc(20.20% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
-    background-color: #f0f0f0;
-    padding: 20px;
-    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
-    border: 2px solid black;
-    text-align: center;
-    border-radius: 20px;
-    background-color: #65c8bf;
-    margin-left: 80px;
-    
-}
-.box2 {
-  flex: 1 1 calc(20.20% - 20px); /* Cada seção ocupará um terço da linha, com 20px de espaçamento entre elas */
-  background-color: #f0f0f0;
-  padding: 20px;
-  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
-  border: 2px solid black;
-  text-align: center;
-  border-radius: 20px;
-  background-color: #65c8bf;
-  margin-right: 80px;
-}
-.fotos_card {
-  height: 200px;
-  width: 180px;
-  float: left;
-  margin-right: 10px;
-}
-.titulo1 {
-  margin-bottom: 15px;
-}
+
+
