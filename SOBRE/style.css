@@ -84,6 +84,13 @@
   background-color: #606060;
   align-items: center;
 }
+
+.melhores_alunos {
+  float: right;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
 .vale {
   text-align: center;
   margin-bottom: 20px;
