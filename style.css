@@ -1,147 +1,54 @@
-@media (max-width: 768px) {
-  /* Estilos para tablets e dispositivos móveis */
-}
-@media (max-width: 480px) {
-  /* Estilos para dispositivos menores, como smartphones */
-}
-
-@media (min-width: 1024px) {
-  /* Estilos para telas de desktop e laptop */
-}
-
-@media (min-width: 1440px) {
-  /* Estilos para telas de monitores widescreen */
-}
-
 * {
-  padding: 0;
-  margin: 0;
-  border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.fotodeperfil {
-  width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
-  height: auto; /* Mantém a proporção da imagem */
-  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #303030; /* Cor de fundo escura */
 }
 
-.titulo {
-  color: #65c8bf;
-  text-align: center;
-  font-family: "vampiro one", sans-serif;
-  font-size: 40px;
-  -webkit-text-stroke: 1px #000000;
-  margin: 0;
-}
-.texto {
-  text-align: center;
-  font-size: 25px;
-}
-
-.menu {
-  background-color: #303030;
-  width: 100%;
-  height: 63px;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  position: fixed;
-  z-index: 1000;
-}
-
-.div-logo {
-  display: flex;
-  align-items: center;
+.container {
+    text-align: center;
 }
 
 .logo {
-  width: 135px;
-
-  background-size: 300px 150px;
-}
-.div-botoes {
-  margin-right: 40px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+    max-width: 250px;
+    margin-bottom: 40px;
 }
 
-.botoes {
-  padding: 10px 15px;
-  color: white;
-  background-color: #303030;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-.botoes:hover {
-  background-color: #606060;
-  align-items: center;
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #65c8bf, #4ca6a1); /* Gradiente começando em #65c8bf */
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
-.melhores_alunos {
-  float: right;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-}
-.vale {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.texto {
-  text-align: center;
-  font-size: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.texto2 {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #4ca6a1, #65c8bf); /* Inverte a direção do gradiente no hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-footer {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 100%;
-  height: 63px; /* Tamanho do footer */
-  background-color: #303030;
-  text-align: center;
-  clear: both;
-  display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Alinha o conteúdo verticalmente */
-  box-sizing: border-box; /* Garante que o padding e border não aumentem a largura do footer */
-}
-
-.div-footer {
-  width: 100%; /* Garante que ocupe toda a largura */
-  padding: 0; /* Remove o padding lateral */
-  display: flex;
-  justify-content: center; /* Centraliza os itens dentro do footer */
-}
-
-.div-imagens {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.logo-cea,
-.logo-asml {
-  max-width: 100%; /* Imagens podem ser responsivas */
-  height: auto; /* Mantém a proporção da imagem */
-  width: 127px; /* Tamanho fixo */
-  height: 55px; /* Tamanho fixo */
+button:active {
+    transform: scale(1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
