@@ -15,11 +15,12 @@ body {
 
 .container {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .logo {
-    max-width: 250px;
-    margin-bottom: 40px;
+    max-width:450px;
+    margin-bottom: 10px;
 }
 
 .buttons {
@@ -29,6 +30,7 @@ body {
 }
 
 button {
+    margin-bottom: 20px;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -39,7 +41,7 @@ button {
     background: linear-gradient(45deg, #65c8bf, #4ca6a1); /* Gradiente começando em #65c8bf */
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
