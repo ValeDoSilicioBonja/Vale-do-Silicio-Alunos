@@ -128,7 +128,8 @@
 
 .bio-card{
   text-align: justify;
-  line-height: 1.0
+  line-height: 1.0;
+  font-size: 22px;
 }
 
 .box {
